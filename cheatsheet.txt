@@ -1,0 +1,36 @@
+Configuración:
+
+git config --global user.name "Tu nombre": Configura tu nombre de usuario globalmente.
+git config --global user.email "tu@email.com": Configura tu dirección de correo electrónico globalmente.
+git config --global --list: Muestra la lista de configuraciones globales de Git.
+Crear y clonar repositorios:
+
+git init: Inicializa un nuevo repositorio local.
+git clone <URL del repositorio>: Clona un repositorio remoto en tu máquina local.
+Gestión de cambios:
+
+git status: Muestra el estado actual del repositorio.
+git add <archivo>: Agrega un archivo específico al área de preparación.
+git add . o git add --all: Agrega todos los archivos modificados y eliminados al área de preparación.
+git commit -m "Mensaje del commit": Crea una confirmación con los cambios en el área de preparación.
+git commit -a -m "Mensaje del commit": Agrega y realiza un commit automáticamente de todos los cambios modificados.
+git diff: Muestra las diferencias entre los archivos modificados y la última confirmación.
+Sincronización con repositorios remotos:
+
+git remote add <nombre> <URL del repositorio>: Agrega un repositorio remoto con un nombre descriptivo.
+git remote -v: Muestra los repositorios remotos configurados.
+git push <nombre-remoto> <rama-local>: Sube los cambios locales al repositorio remoto.
+git pull <nombre-remoto> <rama-remota>: Descarga y fusiona los cambios del repositorio remoto en tu rama local.
+git fetch <nombre-remoto>: Descarga los cambios del repositorio remoto sin fusionarlos automáticamente.
+Ramas (branching):
+
+git branch: Muestra la lista de ramas en el repositorio.
+git branch <nombre-rama>: Crea una nueva rama con el nombre especificado.
+git checkout <nombre-rama>: Cambia a la rama especificada.
+git merge <nombre-rama>: Fusiona los cambios de una rama en la rama actual.
+Historial y deshacer cambios:
+
+git log: Muestra el historial de confirmaciones.
+git log --oneline: Muestra el historial de confirmaciones en una sola línea.
+git reset <commit>: Deshace los cambios realizados después de un commit específico.
+git revert <commit>: Crea una nueva confirmación que deshace los cambios realizados en un commit específico.

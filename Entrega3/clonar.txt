@@ -1,0 +1,40 @@
+francy@francy-virtualbox:~$ sudo apt install git
+[sudo] contraseña para francy: 
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias... Hecho
+Leyendo la información de estado... Hecho
+Se instalarán los siguientes paquetes adicionales:
+  git-man liberror-perl
+Paquetes sugeridos:
+  git-daemon-run | git-daemon-sysvinit git-doc git-email git-gui gitk gitweb
+  git-cvs git-mediawiki git-svn
+Se instalarán los siguientes paquetes NUEVOS:
+  git git-man liberror-perl
+0 actualizados, 3 nuevos se instalarán, 0 para eliminar y 0 no actualizados.
+Se necesita descargar 4.147 kB de archivos.
+Se utilizarán 21,0 MB de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] s
+Des:1 http://co.archive.ubuntu.com/ubuntu jammy/main amd64 liberror-perl all 0.17029-1 [26,5 kB]
+Des:2 http://co.archive.ubuntu.com/ubuntu jammy-updates/main amd64 git-man all 1:2.34.1-1ubuntu1.9 [954 kB]
+Des:3 http://co.archive.ubuntu.com/ubuntu jammy-updates/main amd64 git amd64 1:2.34.1-1ubuntu1.9 [3.166 kB]
+Descargados 4.147 kB en 8s (548 kB/s)                                          
+Seleccionando el paquete liberror-perl previamente no seleccionado.
+(Leyendo la base de datos ... 179125 ficheros o directorios instalados actualmen
+te.)
+Preparando para desempaquetar .../liberror-perl_0.17029-1_all.deb ...
+Desempaquetando liberror-perl (0.17029-1) ...
+Seleccionando el paquete git-man previamente no seleccionado.
+Preparando para desempaquetar .../git-man_1%3a2.34.1-1ubuntu1.9_all.deb ...
+Desempaquetando git-man (1:2.34.1-1ubuntu1.9) ...
+Seleccionando el paquete git previamente no seleccionado.
+Preparando para desempaquetar .../git_1%3a2.34.1-1ubuntu1.9_amd64.deb ...
+Desempaquetando git (1:2.34.1-1ubuntu1.9) ...
+Configurando liberror-perl (0.17029-1) ...
+Configurando git-man (1:2.34.1-1ubuntu1.9) ...
+Configurando git (1:2.34.1-1ubuntu1.9) ...
+Procesando disparadores para man-db (2.10.2-1) ...
+francy@francy-virtualbox:~$ git config --global user.name "maria vanegas"
+francy@francy-virtualbox:~$ git config --global user.email francy.mvanegas@gmail.com
+francy@francy-virtualbox:~$ git clone https://github.com/maryavanegas/Mochila_vanegas_maria.git
+Clonando en 'Mochila_vanegas_maria'...
+remote: Enumerating objects: 15, done.

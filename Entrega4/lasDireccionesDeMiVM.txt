@@ -1,0 +1,3 @@
+ inet 10.0.2.15/24 ip
+ link/ether 08:00:27:ec:ca:20 mac
+si es diferente por que la publica esta asignada al router y la privada es la que esta asignada para llegar a el,
